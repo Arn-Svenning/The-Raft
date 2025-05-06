@@ -1474,7 +1474,64 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      32x16 Button with Symbols SpriteSheet_0: 1209208025405177417
+      32x16 Button with Symbols SpriteSheet_1: -361931656709647967
+      32x16 Button with Symbols SpriteSheet_10: -8649830176318552207
+      32x16 Button with Symbols SpriteSheet_11: 70712387998071107
+      32x16 Button with Symbols SpriteSheet_12: -794356778457981678
+      32x16 Button with Symbols SpriteSheet_13: -3264461005173542715
+      32x16 Button with Symbols SpriteSheet_14: -8822389644895653806
+      32x16 Button with Symbols SpriteSheet_15: -4582470830034419672
+      32x16 Button with Symbols SpriteSheet_16: -1261746747089456796
+      32x16 Button with Symbols SpriteSheet_17: -1200072037836897020
+      32x16 Button with Symbols SpriteSheet_18: 5427059179887593796
+      32x16 Button with Symbols SpriteSheet_19: -7851893615386644866
+      32x16 Button with Symbols SpriteSheet_2: -3800269500164446544
+      32x16 Button with Symbols SpriteSheet_20: 6702639951601315215
+      32x16 Button with Symbols SpriteSheet_21: 2402586636851178401
+      32x16 Button with Symbols SpriteSheet_22: -8213257737596218483
+      32x16 Button with Symbols SpriteSheet_23: 2171414769956502688
+      32x16 Button with Symbols SpriteSheet_24: -2128015204176146191
+      32x16 Button with Symbols SpriteSheet_25: 7599562758424361114
+      32x16 Button with Symbols SpriteSheet_26: -6129770660254196537
+      32x16 Button with Symbols SpriteSheet_27: -1887649350542017435
+      32x16 Button with Symbols SpriteSheet_28: -5920012092253646714
+      32x16 Button with Symbols SpriteSheet_29: -6329509163224210415
+      32x16 Button with Symbols SpriteSheet_3: 7523511766360592351
+      32x16 Button with Symbols SpriteSheet_30: 9146841492571301407
+      32x16 Button with Symbols SpriteSheet_31: 2207283212989261990
+      32x16 Button with Symbols SpriteSheet_32: -6108313280900537668
+      32x16 Button with Symbols SpriteSheet_33: 301455787968987150
+      32x16 Button with Symbols SpriteSheet_34: 9101734878618905518
+      32x16 Button with Symbols SpriteSheet_35: -7314544291666948571
+      32x16 Button with Symbols SpriteSheet_36: -8365430499355383662
+      32x16 Button with Symbols SpriteSheet_37: -3747386623669420063
+      32x16 Button with Symbols SpriteSheet_38: 2151845290805532589
+      32x16 Button with Symbols SpriteSheet_39: -7259185883638582441
+      32x16 Button with Symbols SpriteSheet_4: -411423408388987606
+      32x16 Button with Symbols SpriteSheet_40: -8616608414116769509
+      32x16 Button with Symbols SpriteSheet_41: 6632168876492380520
+      32x16 Button with Symbols SpriteSheet_42: -2525244901405755623
+      32x16 Button with Symbols SpriteSheet_43: -9059720420014189183
+      32x16 Button with Symbols SpriteSheet_44: -442196295353833337
+      32x16 Button with Symbols SpriteSheet_45: -1226082459247900414
+      32x16 Button with Symbols SpriteSheet_46: 5574256456240198398
+      32x16 Button with Symbols SpriteSheet_47: 3484656348104206477
+      32x16 Button with Symbols SpriteSheet_48: -1064434816309454361
+      32x16 Button with Symbols SpriteSheet_49: 3068796213478670487
+      32x16 Button with Symbols SpriteSheet_5: -955128318103979727
+      32x16 Button with Symbols SpriteSheet_50: -4270440507268508893
+      32x16 Button with Symbols SpriteSheet_51: -6649955359293995808
+      32x16 Button with Symbols SpriteSheet_52: -7305068402529757892
+      32x16 Button with Symbols SpriteSheet_53: -4298189627195128261
+      32x16 Button with Symbols SpriteSheet_54: -1186013586725592118
+      32x16 Button with Symbols SpriteSheet_55: 2172681070560222618
+      32x16 Button with Symbols SpriteSheet_56: 7498455505698656681
+      32x16 Button with Symbols SpriteSheet_6: -6815384526778986943
+      32x16 Button with Symbols SpriteSheet_7: -7920026147226415501
+      32x16 Button with Symbols SpriteSheet_8: 9081296277049209647
+      32x16 Button with Symbols SpriteSheet_9: -968068433020619006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

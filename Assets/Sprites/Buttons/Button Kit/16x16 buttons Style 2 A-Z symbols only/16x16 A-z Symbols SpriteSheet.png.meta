@@ -730,7 +730,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x16 A-z Symbols SpriteSheet_0: 7394570190678174224
+      16x16 A-z Symbols SpriteSheet_1: 6521757774969593821
+      16x16 A-z Symbols SpriteSheet_10: -8897756189791877850
+      16x16 A-z Symbols SpriteSheet_11: -5114918897508689714
+      16x16 A-z Symbols SpriteSheet_12: 7919466164850777859
+      16x16 A-z Symbols SpriteSheet_13: -5745176700717309151
+      16x16 A-z Symbols SpriteSheet_14: 7730076165931931323
+      16x16 A-z Symbols SpriteSheet_15: -1278573569985119247
+      16x16 A-z Symbols SpriteSheet_16: 3245116921743514835
+      16x16 A-z Symbols SpriteSheet_17: -3362594115195997592
+      16x16 A-z Symbols SpriteSheet_18: -4690453092326479767
+      16x16 A-z Symbols SpriteSheet_19: -6939816066088460754
+      16x16 A-z Symbols SpriteSheet_2: 2054035749588768474
+      16x16 A-z Symbols SpriteSheet_20: -8998921584142245723
+      16x16 A-z Symbols SpriteSheet_21: 6187418911986913896
+      16x16 A-z Symbols SpriteSheet_22: 5100143089135029171
+      16x16 A-z Symbols SpriteSheet_23: -5724335597304409132
+      16x16 A-z Symbols SpriteSheet_24: 2049656729630605902
+      16x16 A-z Symbols SpriteSheet_25: 4810266065669776582
+      16x16 A-z Symbols SpriteSheet_3: -8789686987717189509
+      16x16 A-z Symbols SpriteSheet_4: 3457609127507535135
+      16x16 A-z Symbols SpriteSheet_5: -6074431471614812709
+      16x16 A-z Symbols SpriteSheet_6: -8024711592626913354
+      16x16 A-z Symbols SpriteSheet_7: -6601453016613195011
+      16x16 A-z Symbols SpriteSheet_8: 6953259600456842924
+      16x16 A-z Symbols SpriteSheet_9: 5188079773190556257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

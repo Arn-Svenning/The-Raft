@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pink (2)_0: 6167850476361178456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

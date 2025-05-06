@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red morale icon_0: 8019740137583569846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

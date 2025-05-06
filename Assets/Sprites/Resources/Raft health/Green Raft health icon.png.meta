@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Green Raft health icon_0: 1344233249657037426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

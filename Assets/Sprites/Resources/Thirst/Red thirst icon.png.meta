@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red thirst icon_0: 3496302254310004843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

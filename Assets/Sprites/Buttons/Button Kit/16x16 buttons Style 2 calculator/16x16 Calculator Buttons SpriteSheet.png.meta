@@ -730,7 +730,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x16 Calculator Buttons SpriteSheet_0: 4150617639899967661
+      16x16 Calculator Buttons SpriteSheet_1: 8646682513137633461
+      16x16 Calculator Buttons SpriteSheet_10: -671855960084810929
+      16x16 Calculator Buttons SpriteSheet_11: -2849577071652120530
+      16x16 Calculator Buttons SpriteSheet_12: 2282446916438985069
+      16x16 Calculator Buttons SpriteSheet_13: -183512771833254894
+      16x16 Calculator Buttons SpriteSheet_14: -2010294272561751827
+      16x16 Calculator Buttons SpriteSheet_15: -4047648631464270792
+      16x16 Calculator Buttons SpriteSheet_16: -7226095007435324888
+      16x16 Calculator Buttons SpriteSheet_17: -411569436545159231
+      16x16 Calculator Buttons SpriteSheet_18: -161869541522848642
+      16x16 Calculator Buttons SpriteSheet_19: 738114221552793730
+      16x16 Calculator Buttons SpriteSheet_2: 7393070704608961904
+      16x16 Calculator Buttons SpriteSheet_20: 3050272739400407348
+      16x16 Calculator Buttons SpriteSheet_21: -1915911530551281087
+      16x16 Calculator Buttons SpriteSheet_22: -8414137233947375655
+      16x16 Calculator Buttons SpriteSheet_23: -1992524010949521025
+      16x16 Calculator Buttons SpriteSheet_24: -5554461626202308486
+      16x16 Calculator Buttons SpriteSheet_25: 3962387292841721043
+      16x16 Calculator Buttons SpriteSheet_3: -5866212332941641181
+      16x16 Calculator Buttons SpriteSheet_4: 4644240596700185837
+      16x16 Calculator Buttons SpriteSheet_5: 6508131071572285473
+      16x16 Calculator Buttons SpriteSheet_6: 5172228226549212048
+      16x16 Calculator Buttons SpriteSheet_7: 6505088862606552339
+      16x16 Calculator Buttons SpriteSheet_8: 367891903814054298
+      16x16 Calculator Buttons SpriteSheet_9: 698792705667864103
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

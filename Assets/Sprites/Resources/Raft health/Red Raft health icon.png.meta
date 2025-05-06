@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red Raft health icon_0: -4652438477963192435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

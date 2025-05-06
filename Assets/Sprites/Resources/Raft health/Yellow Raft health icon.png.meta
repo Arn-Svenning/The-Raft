@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yellow Raft health icon_0: 4132014832384306440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

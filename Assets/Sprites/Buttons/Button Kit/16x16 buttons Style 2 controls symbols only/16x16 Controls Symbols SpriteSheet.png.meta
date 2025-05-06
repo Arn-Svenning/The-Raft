@@ -658,7 +658,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x16 Controls Symbols SpriteSheet_0: -7847581864335005086
+      16x16 Controls Symbols SpriteSheet_1: 8285665161605879760
+      16x16 Controls Symbols SpriteSheet_10: 7337461008727031283
+      16x16 Controls Symbols SpriteSheet_11: 2578557283262002152
+      16x16 Controls Symbols SpriteSheet_12: 8653083497403185300
+      16x16 Controls Symbols SpriteSheet_13: -1451035277620232260
+      16x16 Controls Symbols SpriteSheet_14: 4599535391680907069
+      16x16 Controls Symbols SpriteSheet_15: -1015950756620070180
+      16x16 Controls Symbols SpriteSheet_16: -1111724268852125132
+      16x16 Controls Symbols SpriteSheet_17: -5021927054145736276
+      16x16 Controls Symbols SpriteSheet_18: 2038674426896815552
+      16x16 Controls Symbols SpriteSheet_19: -7787952400594066154
+      16x16 Controls Symbols SpriteSheet_2: 190316150096225989
+      16x16 Controls Symbols SpriteSheet_20: 2851706467182932650
+      16x16 Controls Symbols SpriteSheet_21: 2463984115313180411
+      16x16 Controls Symbols SpriteSheet_22: -3304938062708846481
+      16x16 Controls Symbols SpriteSheet_3: -6281240551024739126
+      16x16 Controls Symbols SpriteSheet_4: -8610573898784482601
+      16x16 Controls Symbols SpriteSheet_5: 7729764225622190084
+      16x16 Controls Symbols SpriteSheet_6: -1973502199653486352
+      16x16 Controls Symbols SpriteSheet_7: -1797905026804497654
+      16x16 Controls Symbols SpriteSheet_8: -4577219570754382845
+      16x16 Controls Symbols SpriteSheet_9: 6352824647959816826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

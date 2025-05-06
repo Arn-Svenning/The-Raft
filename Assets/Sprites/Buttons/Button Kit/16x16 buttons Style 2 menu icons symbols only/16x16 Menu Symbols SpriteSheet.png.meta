@@ -1570,7 +1570,68 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x16 Menu Symbols SpriteSheet_0: -650272802897338099
+      16x16 Menu Symbols SpriteSheet_1: 5803721381781951721
+      16x16 Menu Symbols SpriteSheet_10: -5968811236092536786
+      16x16 Menu Symbols SpriteSheet_11: 466972850969778491
+      16x16 Menu Symbols SpriteSheet_12: -6423735215882641033
+      16x16 Menu Symbols SpriteSheet_13: -2835838004093342069
+      16x16 Menu Symbols SpriteSheet_14: -3144040900604493163
+      16x16 Menu Symbols SpriteSheet_15: 2248908461096627277
+      16x16 Menu Symbols SpriteSheet_16: -7103798729921409569
+      16x16 Menu Symbols SpriteSheet_17: 8511878707217069263
+      16x16 Menu Symbols SpriteSheet_18: 8239857811231617229
+      16x16 Menu Symbols SpriteSheet_19: -3282832756612241591
+      16x16 Menu Symbols SpriteSheet_2: -5813873372560729839
+      16x16 Menu Symbols SpriteSheet_20: 6907974738378881648
+      16x16 Menu Symbols SpriteSheet_21: 618543785793795511
+      16x16 Menu Symbols SpriteSheet_22: 6476325863953477922
+      16x16 Menu Symbols SpriteSheet_23: 8839990320770154407
+      16x16 Menu Symbols SpriteSheet_24: 1570021217884351309
+      16x16 Menu Symbols SpriteSheet_25: 5543397424115234964
+      16x16 Menu Symbols SpriteSheet_26: 1551047022407018094
+      16x16 Menu Symbols SpriteSheet_27: 5428203388448496478
+      16x16 Menu Symbols SpriteSheet_28: 3127812084817001730
+      16x16 Menu Symbols SpriteSheet_29: 8919638425624820062
+      16x16 Menu Symbols SpriteSheet_3: 7546852110125219913
+      16x16 Menu Symbols SpriteSheet_30: -4012342861586978440
+      16x16 Menu Symbols SpriteSheet_31: 2680816605926475838
+      16x16 Menu Symbols SpriteSheet_32: -1087883173326547517
+      16x16 Menu Symbols SpriteSheet_33: -847561277096532813
+      16x16 Menu Symbols SpriteSheet_34: 5740360174902697706
+      16x16 Menu Symbols SpriteSheet_35: 4981524268297433029
+      16x16 Menu Symbols SpriteSheet_36: -8079796425401910313
+      16x16 Menu Symbols SpriteSheet_37: 1588075815740007241
+      16x16 Menu Symbols SpriteSheet_38: -4375900133839346696
+      16x16 Menu Symbols SpriteSheet_39: 5279162431966516726
+      16x16 Menu Symbols SpriteSheet_4: -7873378691059657650
+      16x16 Menu Symbols SpriteSheet_40: 3036465411942069954
+      16x16 Menu Symbols SpriteSheet_41: 4015900539015797613
+      16x16 Menu Symbols SpriteSheet_42: -789408991957288659
+      16x16 Menu Symbols SpriteSheet_43: 8733393274907730272
+      16x16 Menu Symbols SpriteSheet_44: -6944015775073737262
+      16x16 Menu Symbols SpriteSheet_45: -6186330126551605507
+      16x16 Menu Symbols SpriteSheet_46: 261263445658820981
+      16x16 Menu Symbols SpriteSheet_47: 4345846246668617202
+      16x16 Menu Symbols SpriteSheet_48: 1942051014832220577
+      16x16 Menu Symbols SpriteSheet_49: 5737749293870295393
+      16x16 Menu Symbols SpriteSheet_5: -8653365424218076606
+      16x16 Menu Symbols SpriteSheet_50: 1419707760797931030
+      16x16 Menu Symbols SpriteSheet_51: -4213730230504985035
+      16x16 Menu Symbols SpriteSheet_52: 2329933438147251987
+      16x16 Menu Symbols SpriteSheet_53: 8920937351734914688
+      16x16 Menu Symbols SpriteSheet_54: -7047084207870950840
+      16x16 Menu Symbols SpriteSheet_55: 7398483151945179777
+      16x16 Menu Symbols SpriteSheet_56: -2119380874319259076
+      16x16 Menu Symbols SpriteSheet_57: 7369086371090700987
+      16x16 Menu Symbols SpriteSheet_58: 4954449850212564125
+      16x16 Menu Symbols SpriteSheet_59: -2768253053238823690
+      16x16 Menu Symbols SpriteSheet_6: 6324385049502263930
+      16x16 Menu Symbols SpriteSheet_60: -902307187067971198
+      16x16 Menu Symbols SpriteSheet_7: 6578392594146608869
+      16x16 Menu Symbols SpriteSheet_8: -5372984103846511806
+      16x16 Menu Symbols SpriteSheet_9: -2861390782400814405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

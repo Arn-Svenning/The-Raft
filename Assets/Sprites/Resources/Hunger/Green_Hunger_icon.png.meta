@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Green_Hunger_icon_0: 5017149687695391996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

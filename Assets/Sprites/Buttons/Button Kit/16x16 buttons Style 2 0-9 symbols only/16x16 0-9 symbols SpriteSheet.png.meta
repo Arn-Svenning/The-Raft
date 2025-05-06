@@ -346,7 +346,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16x16 0-9 symbols SpriteSheet_0: 8479671812777024214
+      16x16 0-9 symbols SpriteSheet_1: 1687221208693974994
+      16x16 0-9 symbols SpriteSheet_2: -8297429093536170434
+      16x16 0-9 symbols SpriteSheet_3: 7320224071265829556
+      16x16 0-9 symbols SpriteSheet_4: -5901998242537662313
+      16x16 0-9 symbols SpriteSheet_5: 2880957905285842594
+      16x16 0-9 symbols SpriteSheet_6: -5802821418095736516
+      16x16 0-9 symbols SpriteSheet_7: -1709775493297464857
+      16x16 0-9 symbols SpriteSheet_8: 4741680103199131857
+      16x16 0-9 symbols SpriteSheet_9: -8718497558055701809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

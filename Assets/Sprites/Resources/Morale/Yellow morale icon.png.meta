@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yellow morale icon_0: 765106281197339387
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red Hunger icon_0: 7856434735565127522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

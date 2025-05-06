@@ -1498,7 +1498,65 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Style 1 Symbols SpriteSheet_0: -1878108919836232096
+      Style 1 Symbols SpriteSheet_1: 6608341711707714594
+      Style 1 Symbols SpriteSheet_10: -5170379182992676683
+      Style 1 Symbols SpriteSheet_11: -6232301862846958149
+      Style 1 Symbols SpriteSheet_12: -2906792492686223955
+      Style 1 Symbols SpriteSheet_13: -378935253578617614
+      Style 1 Symbols SpriteSheet_14: 5337190144068032164
+      Style 1 Symbols SpriteSheet_15: 6470505058303939683
+      Style 1 Symbols SpriteSheet_16: 3873265926842524546
+      Style 1 Symbols SpriteSheet_17: -7572330778460699111
+      Style 1 Symbols SpriteSheet_18: -1781102437488203489
+      Style 1 Symbols SpriteSheet_19: 5834126713925580938
+      Style 1 Symbols SpriteSheet_2: 6463630521765311065
+      Style 1 Symbols SpriteSheet_20: -1674142803233384971
+      Style 1 Symbols SpriteSheet_21: -1674978433336140249
+      Style 1 Symbols SpriteSheet_22: 7020034085398879276
+      Style 1 Symbols SpriteSheet_23: -3879352315769163207
+      Style 1 Symbols SpriteSheet_24: -1428658364355856840
+      Style 1 Symbols SpriteSheet_25: -7910873127721666508
+      Style 1 Symbols SpriteSheet_26: 704234451490885974
+      Style 1 Symbols SpriteSheet_27: -7853762070156559042
+      Style 1 Symbols SpriteSheet_28: 1536326485028256447
+      Style 1 Symbols SpriteSheet_29: 4504331342624160601
+      Style 1 Symbols SpriteSheet_3: -29901012801981414
+      Style 1 Symbols SpriteSheet_30: 464527862568740977
+      Style 1 Symbols SpriteSheet_31: 4947620674726299123
+      Style 1 Symbols SpriteSheet_32: 947178572502763882
+      Style 1 Symbols SpriteSheet_33: -3521960188032854333
+      Style 1 Symbols SpriteSheet_34: -3369493616855847212
+      Style 1 Symbols SpriteSheet_35: -6290919885951363392
+      Style 1 Symbols SpriteSheet_36: 7032154969936982521
+      Style 1 Symbols SpriteSheet_37: 29076660403103185
+      Style 1 Symbols SpriteSheet_38: -6682198168265967682
+      Style 1 Symbols SpriteSheet_39: -7506048606308473184
+      Style 1 Symbols SpriteSheet_4: -6891663503606163739
+      Style 1 Symbols SpriteSheet_40: 1859310423086322534
+      Style 1 Symbols SpriteSheet_41: -6908976126444153287
+      Style 1 Symbols SpriteSheet_42: -2076070563805225253
+      Style 1 Symbols SpriteSheet_43: 6627165166794155138
+      Style 1 Symbols SpriteSheet_44: 651580173176954191
+      Style 1 Symbols SpriteSheet_45: 3492940238527260444
+      Style 1 Symbols SpriteSheet_46: 2115818155990404416
+      Style 1 Symbols SpriteSheet_47: 7192572318273166329
+      Style 1 Symbols SpriteSheet_48: 9020730976286970114
+      Style 1 Symbols SpriteSheet_49: -3600576926729527526
+      Style 1 Symbols SpriteSheet_5: -3193413996819228697
+      Style 1 Symbols SpriteSheet_50: -86269700082365767
+      Style 1 Symbols SpriteSheet_51: -3701486608979421372
+      Style 1 Symbols SpriteSheet_52: -5150865802366022574
+      Style 1 Symbols SpriteSheet_53: 3826872797025079442
+      Style 1 Symbols SpriteSheet_54: -7099627965156337644
+      Style 1 Symbols SpriteSheet_55: -1592537105424918834
+      Style 1 Symbols SpriteSheet_56: -7862780678477879727
+      Style 1 Symbols SpriteSheet_57: 1121898626649844959
+      Style 1 Symbols SpriteSheet_6: -1033455902437521173
+      Style 1 Symbols SpriteSheet_7: -6559678615649781935
+      Style 1 Symbols SpriteSheet_8: -7542889211998216058
+      Style 1 Symbols SpriteSheet_9: -1578296441518792857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

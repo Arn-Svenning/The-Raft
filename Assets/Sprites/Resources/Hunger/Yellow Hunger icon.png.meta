@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yellow Hunger icon_0: -2382980381735229508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
