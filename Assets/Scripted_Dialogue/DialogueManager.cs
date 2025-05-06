@@ -86,16 +86,22 @@ public class DialogueManager : MonoBehaviour
 
     public void ContinueStory()
     {
-        if (currentStory.canContinue)
-        {
-            dialogueText.text = currentStory.Continue();
-
-            DisplayChoices();
-        }
-        else
+        if (!currentStory.canContinue)
         {
             ExitDialogueMode();
+            return;
         }
+
+        // Pull the next non-empty line out of Ink.
+        string nextLine = currentStory.Continue();
+        // Skip any blank lines (glue/diverts/etc) until we find real text or run out.
+        while (string.IsNullOrWhiteSpace(nextLine) && currentStory.canContinue)
+        {
+            nextLine = currentStory.Continue();
+        }
+
+        dialogueText.text = nextLine;
+        DisplayChoices();
     }
     private void DisplayChoices()
     {
