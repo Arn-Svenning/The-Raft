@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -106,7 +105,6 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -128,14 +126,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 4
       width: 96
       height: 80
-    spriteID: 871a4447f8c9b8142a82e0068b883f93
+    spriteID: 53aa05bad37acd941bb8037a5a22817a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -149,14 +146,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 92
       width: 96
       height: 80
-    spriteID: e2c6341d67853054da917e185c614f37
+    spriteID: 7dea55900e0859346bc3aaed5bf17edf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,14 +166,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 180
       width: 96
       height: 80
-    spriteID: e9d654b9697e337459639f6a194fac6e
+    spriteID: 2c9cbc9091057d2408dd779e0c9c3b0e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -191,14 +186,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 268
       width: 96
       height: 80
-    spriteID: 47ca15b3afccd6440ab65a53a490f87d
+    spriteID: ec80491dcbc4a054d90f0da606f4ba01
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,14 +206,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 356
       width: 96
       height: 80
-    spriteID: 77bba9d17893dde4e823702e4be6acb3
+    spriteID: 54315576183b1cf45beafe8b5fffc489
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -233,14 +226,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 108
       y: 4
       width: 96
       height: 80
-    spriteID: a5343eed682bb4444a51abc1e5aad6bd
+    spriteID: 172e274beb5422c478cdd9b6d24e55e9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -254,14 +246,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 108
       y: 92
       width: 96
       height: 80
-    spriteID: 18c2555e11a11904ca754dc95fa4843a
+    spriteID: 7339b20b4a86a3b4c91744a6487070a1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -273,75 +264,68 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1619471619
+    guid: -1314861657
     name: Wave shore animations
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Wave shore animations_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 96
         height: 80
-      spriteId: 871a4447f8c9b8142a82e0068b883f93
-    - name: Frame_1
+      spriteId: 53aa05bad37acd941bb8037a5a22817a
+    - name: Wave shore animations_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 96
         height: 80
-      spriteId: e2c6341d67853054da917e185c614f37
-    - name: Frame_2
+      spriteId: 7dea55900e0859346bc3aaed5bf17edf
+    - name: Wave shore animations_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 96
         height: 80
-      spriteId: e9d654b9697e337459639f6a194fac6e
-    - name: Frame_3
+      spriteId: 2c9cbc9091057d2408dd779e0c9c3b0e
+    - name: Wave shore animations_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 96
         height: 80
-      spriteId: 47ca15b3afccd6440ab65a53a490f87d
-    - name: Frame_4
+      spriteId: ec80491dcbc4a054d90f0da606f4ba01
+    - name: Wave shore animations_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 96
         height: 80
-      spriteId: 77bba9d17893dde4e823702e4be6acb3
-    - name: Frame_5
+      spriteId: 54315576183b1cf45beafe8b5fffc489
+    - name: Wave shore animations_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 96
         height: 80
-      spriteId: a5343eed682bb4444a51abc1e5aad6bd
-    - name: Frame_6
+      spriteId: 172e274beb5422c478cdd9b6d24e55e9
+    - name: Wave shore animations_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 96
         height: 80
-      spriteId: 18c2555e11a11904ca754dc95fa4843a
+      spriteId: 7339b20b4a86a3b4c91744a6487070a1
     linkedCells: []
     parentIndex: -1
   platformSettings: []
@@ -349,4 +333,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 96, y: 80}
-  previousTextureSize: {x: 256, y: 512}

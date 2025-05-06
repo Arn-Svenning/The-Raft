@@ -4,10 +4,9 @@ using System.Threading.Tasks;
 using LLMUnity;
 using UnityEngine.UI;
 
-
 namespace LLMUnitySamples
 {
-    public class ChatBot : MonoBehaviour /// IMPORTANT TO USE REWIRED INPUT FOR "OnValueChanged" AND "OnInputFieldSubmit"
+    public class ChatBot : MonoBehaviour
     {
         public Transform chatContainer;
         public Color playerColor = new Color32(81, 164, 81, 255);
@@ -74,20 +73,20 @@ namespace LLMUnitySamples
 
         void onInputFieldSubmit(string newText)
         {
-            //inputBubble.ActivateInputField();
+            inputBubble.ActivateInputField();
             //if (blockInput || newText.Trim() == "" || Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
             //{
             //    StartCoroutine(BlockInteraction());
             //    return;
             //}
-            //blockInput = true;
-            //// replace vertical_tab
-            //string message = inputBubble.GetText().Replace("\v", "\n");
+            blockInput = true;
+            // replace vertical_tab
+            string message = inputBubble.GetText().Replace("\v", "\n");
 
-            //AddBubble(message, true);
-            //Bubble aiBubble = AddBubble("...", false);
-            //Task chatTask = llmCharacter.Chat(message, aiBubble.SetText, AllowInput);
-            //inputBubble.SetText("");
+            AddBubble(message, true);
+            Bubble aiBubble = AddBubble("...", false);
+            Task chatTask = llmCharacter.Chat(message, aiBubble.SetText, AllowInput);
+            inputBubble.SetText("");
         }
 
         public void WarmUpCallback()
@@ -121,7 +120,7 @@ namespace LLMUnitySamples
 
         void onValueChanged(string newText)
         {
-            //// Get rid of newline character added when we press enter
+            // Get rid of newline character added when we press enter
             //if (Input.GetKey(KeyCode.Return))
             //{
             //    if (inputBubble.GetText().Trim() == "")

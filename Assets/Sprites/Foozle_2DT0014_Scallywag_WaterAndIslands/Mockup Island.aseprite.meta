@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -106,7 +105,6 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -128,14 +126,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 4
       width: 640
       height: 360
-    spriteID: bc1793cdadab0dd4ba9eedccbb04b7f3
+    spriteID: 8c5c98c6036fa9443b19e982b1acbc51
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,7 +144,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -227021462
+    guid: 66792802
     name: Mockup Island
     layerFlags: 0
     layerType: 0
@@ -155,13 +152,12 @@ ScriptedImporter:
     cells:
     - name: Mockup Island
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 640
         height: 360
-      spriteId: bc1793cdadab0dd4ba9eedccbb04b7f3
+      spriteId: 8c5c98c6036fa9443b19e982b1acbc51
     linkedCells: []
     parentIndex: -1
   platformSettings: []
@@ -169,4 +165,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 640, y: 360}
-  previousTextureSize: {x: 1024, y: 512}

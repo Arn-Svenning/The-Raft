@@ -5,7 +5,6 @@ using System.Linq;
 using UnityEditor;
 #endif
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 namespace Water2D
 {
@@ -171,7 +170,7 @@ namespace Water2D
 
         public void GetAllReflectors()
         {
-            foreach (var r in Object.FindObjectsByType<Reflector>(FindObjectsSortMode.None))
+            foreach (var r in GameObject.FindObjectsOfType<Reflector>(true))
             {
                 if (!reflectors.ContainsKey(r.transform)) AddReflector(r.data);
             }
@@ -332,7 +331,7 @@ namespace Water2D
                 return;
             }
 
-            if (!topdown && !raymarch)
+            if (topdown)
             {
                 UpdateReflectionsPhysics();
             }

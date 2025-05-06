@@ -2,7 +2,8 @@ using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
-#if UNITY_IOS
+#if UNITY_IOS || UNITY_VISIONOS
+using System.IO;
 using UnityEditor.iOS.Xcode;
 #endif
 
@@ -16,27 +17,7 @@ namespace LLMUnity
         public void OnPreprocessBuild(BuildReport report)
         {
             Application.logMessageReceived += OnBuildError;
-            string platform = null;
-            switch (report.summary.platform)
-            {
-                case BuildTarget.StandaloneWindows:
-                case BuildTarget.StandaloneWindows64:
-                    platform = "windows";
-                    break;
-                case BuildTarget.StandaloneLinux64:
-                    platform = "linux";
-                    break;
-                case BuildTarget.StandaloneOSX:
-                    platform = "macos";
-                    break;
-                case BuildTarget.Android:
-                    platform = "android";
-                    break;
-                case BuildTarget.iOS:
-                    platform = "ios";
-                    break;
-            }
-            LLMBuilder.Build(platform);
+            LLMBuilder.Build(report.summary.platform);
             AssetDatabase.Refresh();
         }
 
@@ -46,28 +27,62 @@ namespace LLMUnity
             if (type == LogType.Error) BuildCompleted();
         }
 
-#if UNITY_IOS
+#if UNITY_IOS || UNITY_VISIONOS
         /// <summary>
-        /// Adds the Accelerate framework (for ios)
+        /// Postprocess the iOS Build
         /// </summary>
-        public static void AddAccelerate(string outputPath)
+        public static void PostprocessIOSBuild(BuildTarget buildTarget, string outputPath)
         {
             string projPath = PBXProject.GetPBXProjectPath(outputPath);
-            PBXProject proj = new PBXProject();
-            proj.ReadFromFile(projPath);
-            proj.AddFrameworkToProject(proj.GetUnityMainTargetGuid(), "Accelerate.framework", false);
-            proj.AddFrameworkToProject(proj.GetUnityFrameworkTargetGuid(), "Accelerate.framework", false);
-            proj.WriteToFile(projPath);
+#if UNITY_VISIONOS
+            projPath = projPath.Replace("Unity-iPhone", "Unity-VisionOS");
+#endif
+            PBXProject project = new PBXProject();
+            project.ReadFromFile(projPath);
+
+            string targetGuid = project.GetUnityFrameworkTargetGuid();
+            string frameworkTargetGuid = project.GetUnityFrameworkTargetGuid();
+            string unityMainTargetGuid = project.GetUnityMainTargetGuid();
+            string embedFrameworksGuid = project.GetResourcesBuildPhaseByTarget(frameworkTargetGuid);
+
+            // Add Accelerate framework
+            project.AddFrameworkToProject(unityMainTargetGuid, "Accelerate.framework", false);
+            project.AddFrameworkToProject(targetGuid, "Accelerate.framework", false);
+
+            string libraryFile = LLMUnitySetup.RelativePath(LLMUnitySetup.SearchDirectory(outputPath, $"libundreamai_{buildTarget.ToString().ToLower()}.a"), outputPath);
+            string fileGuid = project.FindFileGuidByProjectPath(libraryFile);
+            if (string.IsNullOrEmpty(fileGuid)) Debug.LogError($"Library file {libraryFile} not found in project");
+            else
+            {
+                foreach (var phaseGuid in project.GetAllBuildPhasesForTarget(unityMainTargetGuid))
+                {
+                    if (project.GetBuildPhaseName(phaseGuid) == "Embed Frameworks")
+                    {
+                        project.RemoveFileFromBuild(phaseGuid, fileGuid);
+                        break;
+                    }
+                }
+
+                project.AddFileToBuild(unityMainTargetGuid, fileGuid);
+                project.AddFileToBuild(targetGuid, fileGuid);
+            }
+
+            project.WriteToFile(projPath);
+            AssetDatabase.ImportAsset(projPath);
         }
+
 #endif
 
         // called after the build
         public void OnPostprocessBuild(BuildReport report)
         {
-#if UNITY_IOS
-            AddAccelerate(report.summary.outputPath);
+#if UNITY_IOS || UNITY_VISIONOS
+            PostprocessIOSBuild(report.summary.platform, report.summary.outputPath);
 #endif
-            BuildCompleted();
+            EditorApplication.delayCall += () =>
+            {
+                BuildCompleted();
+            };
         }
 
         public void BuildCompleted()

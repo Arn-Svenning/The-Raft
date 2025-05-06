@@ -11,7 +11,7 @@ using System;
 
 namespace LLMUnitySamples
 {
-    public class KnowledgeBaseGame : KnowledgeBaseGameUI // IMPORTANT TO USE REWIRED INPUT FOR "OnValueChanged" AND "Update"!!!!!!
+    public class KnowledgeBaseGame : KnowledgeBaseGameUI
     {
         [Header("Models")]
         public LLMCharacter llmCharacter;
@@ -232,7 +232,7 @@ namespace LLMUnitySamples
 
         void OnValueChanged(string newText)
         {
-            //// Get rid of newline character added when we press enter
+            // Get rid of newline character added when we press enter
             //if (Input.GetKey(KeyCode.Return))
             //{
             //    if (PlayerText.text.Trim() == "")

@@ -163,7 +163,7 @@ namespace Water2D
             var rb = c.GetComponent<Rigidbody2D>();
             float fa = settings.splashForceMin.value;
             float fe = settings.splashForceMax.value;
-            float ft = Mathf.Lerp(0f, 1f, (( 0.5f*rb.mass * rb.linearVelocity.y * rb.linearVelocity.y) - fa)/ (fe-fa) );
+            float ft = Mathf.Lerp(0f, 1f, (( 0.5f*rb.mass * rb.velocity.y * rb.velocity.y) - fa)/ (fe-fa) );
             
             float speed = Mathf.Lerp(settings.splashVelMin.value, settings.splashVelMax.value, ft);
             int nodesNum = (int)Mathf.Lerp(settings.splashNodesWidthMin.value, settings.splashNodesWidthMax.value, ft);

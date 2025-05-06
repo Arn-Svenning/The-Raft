@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -106,7 +105,6 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -128,14 +126,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 4
       width: 16
       height: 16
-    spriteID: df49a8e1b4d45bf46851b5992ad362aa
+    spriteID: 6dfc9b0e1f2fd1f44b5bdd595c065fa7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -149,14 +146,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 28
       width: 16
       height: 16
-    spriteID: 26e2abd2819a3234f9702f9e14cca957
+    spriteID: 686411e61d6746740bf00bce09353c8a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,14 +166,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 52
       width: 16
       height: 16
-    spriteID: e36a3429f390d52469a1e45c6dc3ecfa
+    spriteID: 137d6303ca268bf4d8a72dcf1980208c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -191,14 +186,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 76
       width: 16
       height: 16
-    spriteID: 9dcd91f5ea9936d4fb583ec1de692379
+    spriteID: a7dd3a075eb468d4e8c67dbd5e713931
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,14 +206,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
       y: 100
       width: 16
       height: 16
-    spriteID: f0a60bda9c6284642a51ba5f044f77d0
+    spriteID: ab61e0d57685333459b2c44d81139ef6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -233,14 +226,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 28
       y: 4
       width: 16
       height: 16
-    spriteID: 88304e33488bc244ca16adc68150ed01
+    spriteID: ba61f1ea646fb5f4b928d11b1d4bf8a3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -254,14 +246,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 28
       y: 28
       width: 16
       height: 16
-    spriteID: b5add6aaba9e08747b7fd3495bddbfb1
+    spriteID: d23b47578f15b6b4d97e31184be99d8e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -275,14 +266,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 28
       y: 52
       width: 16
       height: 16
-    spriteID: 98537ffd2c58e224384f20bed60a6668
+    spriteID: efe475d11d2feab4ba979ec76b11b1c3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -296,14 +286,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 28
       y: 76
       width: 16
       height: 16
-    spriteID: b52e8a1219916c042b806b225c171ceb
+    spriteID: bf0f6d35b919c5b4096c57283a0778ae
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -317,14 +306,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 28
       y: 100
       width: 16
       height: 16
-    spriteID: bd7bb0f04b1507243b44ad33a66a6d82
+    spriteID: 43159fe07f8f88d45ae86737279f8bd0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -338,14 +326,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 52
       y: 4
       width: 16
       height: 16
-    spriteID: dc9253cc01518334d8c61cf0bce48e70
+    spriteID: 1ce416cb19d48d04db86273777dbba47
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -359,14 +346,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 52
       y: 28
       width: 16
       height: 16
-    spriteID: 5b39109b9cb950d4781e6e7c9bb6cf65
+    spriteID: db984b37239847442a06ae65aa78d43a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -380,14 +366,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 52
       y: 52
       width: 16
       height: 16
-    spriteID: f1af29fd838abff42ba42c61d441f115
+    spriteID: dbb4e050b509857448f463cb63c262b4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -401,14 +386,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 52
       y: 76
       width: 16
       height: 16
-    spriteID: 892c6317107860c4c93372d10603ef28
+    spriteID: fc0e3ffe51e7acc47b275ea23db80943
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -422,14 +406,13 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 52
       y: 100
       width: 16
       height: 16
-    spriteID: 7d560ec50b1e6ab4fbf110749a0b4d1f
+    spriteID: a707e368be77a3d44b751ebafe8da79f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -441,147 +424,132 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 988603929
+    guid: 1633735877
     name: Waves and teasure Animations
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Waves and teasure Animations_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: df49a8e1b4d45bf46851b5992ad362aa
-    - name: Frame_1
+      spriteId: 6dfc9b0e1f2fd1f44b5bdd595c065fa7
+    - name: Waves and teasure Animations_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: 26e2abd2819a3234f9702f9e14cca957
-    - name: Frame_2
+      spriteId: 686411e61d6746740bf00bce09353c8a
+    - name: Waves and teasure Animations_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: e36a3429f390d52469a1e45c6dc3ecfa
-    - name: Frame_3
+      spriteId: 137d6303ca268bf4d8a72dcf1980208c
+    - name: Waves and teasure Animations_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: 9dcd91f5ea9936d4fb583ec1de692379
-    - name: Frame_4
+      spriteId: a7dd3a075eb468d4e8c67dbd5e713931
+    - name: Waves and teasure Animations_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: f0a60bda9c6284642a51ba5f044f77d0
-    - name: Frame_5
+      spriteId: ab61e0d57685333459b2c44d81139ef6
+    - name: Waves and teasure Animations_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: 88304e33488bc244ca16adc68150ed01
-    - name: Frame_6
+      spriteId: ba61f1ea646fb5f4b928d11b1d4bf8a3
+    - name: Waves and teasure Animations_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: b5add6aaba9e08747b7fd3495bddbfb1
-    - name: Frame_7
+      spriteId: d23b47578f15b6b4d97e31184be99d8e
+    - name: Waves and teasure Animations_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: 98537ffd2c58e224384f20bed60a6668
-    - name: Frame_8
+      spriteId: efe475d11d2feab4ba979ec76b11b1c3
+    - name: Waves and teasure Animations_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: b52e8a1219916c042b806b225c171ceb
-    - name: Frame_9
+      spriteId: bf0f6d35b919c5b4096c57283a0778ae
+    - name: Waves and teasure Animations_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: bd7bb0f04b1507243b44ad33a66a6d82
-    - name: Frame_10
+      spriteId: 43159fe07f8f88d45ae86737279f8bd0
+    - name: Waves and teasure Animations_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: dc9253cc01518334d8c61cf0bce48e70
-    - name: Frame_11
+      spriteId: 1ce416cb19d48d04db86273777dbba47
+    - name: Waves and teasure Animations_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: 5b39109b9cb950d4781e6e7c9bb6cf65
-    - name: Frame_12
+      spriteId: db984b37239847442a06ae65aa78d43a
+    - name: Waves and teasure Animations_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: f1af29fd838abff42ba42c61d441f115
-    - name: Frame_13
+      spriteId: dbb4e050b509857448f463cb63c262b4
+    - name: Waves and teasure Animations_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: 892c6317107860c4c93372d10603ef28
-    - name: Frame_14
+      spriteId: fc0e3ffe51e7acc47b275ea23db80943
+    - name: Waves and teasure Animations_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 16
-      spriteId: 7d560ec50b1e6ab4fbf110749a0b4d1f
+      spriteId: a707e368be77a3d44b751ebafe8da79f
     linkedCells: []
     parentIndex: -1
   platformSettings: []
@@ -589,4 +557,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 16, y: 16}
-  previousTextureSize: {x: 128, y: 128}

@@ -1,3 +1,42 @@
+## v2.5.1
+#### 🚀 Features
+
+- Allow JSON schema grammars (PR: #333)
+- Add support for Qwen3 models (PR: #335)
+- Add support for BitNet models (PR: #334)
+- Upgrade LlamaLib to v1.2.5 (llama.cpp b5261) (PR: #335)
+
+#### 🐛 Fixes
+
+- Fix Unity Editor hanging after stopping a completion and restarting scene (PR: #335)
+
+
+## v2.5.0
+#### 🚀 Features
+
+- VisionOS support (PR: #299)
+- Add support for Gemma 3 and Phi 4 models (PR: #327)
+- Fix Android support for older devices (use ARMv8-A instead of ARMv8.4-A) (PR: #325)
+- Upgrade LlamaLib to v1.2.4 (llama.cpp b4969) (PR: #325)
+- Default number of predicted tokens (num_predict) to infinity (-1) (PR: #328)
+
+
+## v2.4.2
+#### 🚀 Features
+
+- Integrate DeepSeek models (PR: #312)
+- Update LlamaLib to v1.2.3 (llama.cpp b4688) (PR: #312)
+- Drop CUDA 11.7.1 support (PR: #312)
+- Add warm-up function for provided prompt (PR: #301)
+- Add documentation in Unity tooltips (PR: #302)
+
+#### 🐛 Fixes
+
+- Fix code signing on iOS (PR: #298)
+- Persist debug mode and use of extras to the build (PR: #304)
+- Fix dependency resolution for full CUDA and vulkan architectures (PR: #313)
+
+
 ## v2.4.1
 #### 🚀 Features
 

@@ -4,9 +4,9 @@ AssetOrigin:
   serializedVersion: 1
   productId: 255068
   packageName: Modern 2D Water
-  packageVersion: 2.1.0v
+  packageVersion: 2.1.1v
   assetPath: Assets/ModernWater2D/Resources/Sprites/editor/banner.aseprite
-  uploadId: 704958
+  uploadId: 738899
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -15,7 +15,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -113,7 +112,6 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -135,7 +133,6 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -154,7 +151,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1222408196
+    guid: -35250636
     name: banner
     layerFlags: 0
     layerType: 0
@@ -162,7 +159,6 @@ ScriptedImporter:
     cells:
     - name: banner
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -12
@@ -188,4 +184,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 256, y: 84}
-  previousTextureSize: {x: 512, y: 128}

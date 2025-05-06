@@ -4,9 +4,9 @@ AssetOrigin:
   serializedVersion: 1
   productId: 255068
   packageName: Modern 2D Water
-  packageVersion: 2.1.0v
+  packageVersion: 2.1.1v
   assetPath: Assets/ModernWater2D/Resources/Sprites/dark/dark.aseprite
-  uploadId: 704958
+  uploadId: 738899
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -15,7 +15,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -113,7 +112,6 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -135,7 +133,6 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.29807693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -156,7 +153,6 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.29807693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -177,7 +173,6 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.29807693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -198,7 +193,6 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.29807693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -219,7 +213,6 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.29807693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 492
@@ -240,7 +233,6 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.29807693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 492
@@ -261,7 +253,6 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.29807693}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
     rect:
       serializedVersion: 2
       x: 492
@@ -280,69 +271,62 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1516410082
+    guid: -719381114
     name: dark
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: dark_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 62
         width: 480
         height: 208
       spriteId: 5f3a34b02b56a22448c83483ec8071ad
-    - name: Frame_1
+    - name: dark_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 62
         width: 480
         height: 208
       spriteId: a45d0af2f3a4a5c43b8053242b469ba5
-    - name: Frame_2
+    - name: dark_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 62
         width: 480
         height: 208
       spriteId: fbf1f1fcfb76bd245a64893466a9b3a4
-    - name: Frame_3
+    - name: dark_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 62
         width: 480
         height: 208
       spriteId: 6dd5f89822f907047bfb1efa43ab0c02
-    - name: Frame_4
+    - name: dark_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 62
         width: 480
         height: 208
       spriteId: 492b2dda27c9312448bcee33e0b90f91
-    - name: Frame_5
+    - name: dark_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 62
         width: 480
         height: 208
       spriteId: 8a7529118c72efa4fa1bd55779b0d47b
-    - name: Frame_6
+    - name: dark_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 62
@@ -368,4 +352,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 480, y: 270}
-  previousTextureSize: {x: 1024, y: 1024}
