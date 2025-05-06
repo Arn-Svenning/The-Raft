@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
+  m_Name: Dark_Body
+  m_EditorClassIdentifier: 
+  bodyPartName: Dark_Body
+  bodyPartAnimationID: 1
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: a23910d18a757ae47bf8974a97423fda, type: 2}
+  - {fileID: 7400000, guid: aef657fa52f46e948a84281e3db45eb0, type: 2}
+  - {fileID: 7400000, guid: c2a1ceb3045ed4844b8a2b7222626f90, type: 2}
+  - {fileID: 7400000, guid: 7c64c48e263986f47bb6b6cbbdb549fb, type: 2}
+  - {fileID: 7400000, guid: 89d4add6096b12a48abae0dd14dca744, type: 2}
+  - {fileID: 7400000, guid: 5b00ea42194057f4ca41aa240885b0b5, type: 2}
+  - {fileID: 7400000, guid: 5fe299964c7549c4d9319c5ae6ab2a08, type: 2}
+  - {fileID: 7400000, guid: 25b46551f5cd9434fb66db3dbc486c28, type: 2}

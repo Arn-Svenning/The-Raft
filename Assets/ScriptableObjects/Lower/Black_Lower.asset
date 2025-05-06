@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
+  m_Name: Black_Lower
+  m_EditorClassIdentifier: 
+  bodyPartName: Black_Lower
+  bodyPartAnimationID: 2
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: caabaca3f0a3dde43b0606af9147b8fe, type: 2}
+  - {fileID: 7400000, guid: 510e6b9bde561e7409095e02a27ed60a, type: 2}
+  - {fileID: 7400000, guid: 430ed312702bc1d4d9c9e62c2f4da4a3, type: 2}
+  - {fileID: 7400000, guid: 3f5c5f62c17ae634d8d0cdfeb816113e, type: 2}
+  - {fileID: 7400000, guid: 7dc552083923fc143b3afcd7ddc1caf3, type: 2}
+  - {fileID: 7400000, guid: c7be401fdc546ad47a253b5a5e424adc, type: 2}
+  - {fileID: 7400000, guid: 54ca2566375fb8649adc2e16d2d23b54, type: 2}
+  - {fileID: 7400000, guid: 630b233b56f6c234d984762f8b5a81d9, type: 2}

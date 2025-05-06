@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
+  m_Name: No_Beard
+  m_EditorClassIdentifier: 
+  bodyPartName: Blue_Overall_Upper
+  bodyPartAnimationID: 1
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: f12619c2b5147cf4590ea6d5a7ff897b, type: 2}
+  - {fileID: 7400000, guid: 3c2fecacd690d5244bac86f7b5790fe8, type: 2}
+  - {fileID: 7400000, guid: 4e8407f5a2cb352439e00977b7909b37, type: 2}
+  - {fileID: 7400000, guid: 9153aa657645ea4458548ce089e01b2c, type: 2}
+  - {fileID: 7400000, guid: 5b64e4baa4ffb1a4fbb2b1acbf457eaf, type: 2}
+  - {fileID: 7400000, guid: 389bc3c43f3b8bf44850791685fb4c65, type: 2}
+  - {fileID: 7400000, guid: a38775f5d11904e4f8802feb7582a5d5, type: 2}
+  - {fileID: 7400000, guid: 2223c368acf255b4eb75970dc36adb3e, type: 2}

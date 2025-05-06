@@ -1,0 +1,10 @@
+﻿
+---
+
+### VALID STATES ###
+- Idle – Not doing anything and not talking to {playerName}.
+- Paddling – Actively moving the raft.
+- Fishing – Trying to catch food.
+- Collect Rain – Gathering rainwater using a barrel.
+- Repair Raft – Fixing raft damage.
+- Casual Chatter – Talking to {playerName} when no work is being asked.

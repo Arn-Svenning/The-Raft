@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
+  m_Name: Green_Lower
+  m_EditorClassIdentifier: 
+  bodyPartName: Green_Lower
+  bodyPartAnimationID: 1
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 3b8f6dac76e635f4981d4513c464579a, type: 2}
+  - {fileID: 7400000, guid: 0316f738d9cc37b4080c23129a582217, type: 2}
+  - {fileID: 7400000, guid: add7608598a46d543adf99c074777235, type: 2}
+  - {fileID: 7400000, guid: 92f030a1f732f25429e2dec874ea70ac, type: 2}
+  - {fileID: 7400000, guid: c66ead14efd7b8544b1a74d89d24d6b3, type: 2}
+  - {fileID: 7400000, guid: cf69f38651af1954a98e6af68d5da8b2, type: 2}
+  - {fileID: 7400000, guid: afd27ab12bd821c47afac5e9f38ad682, type: 2}
+  - {fileID: 7400000, guid: 14102e3c05a422c429dc198d71082638, type: 2}

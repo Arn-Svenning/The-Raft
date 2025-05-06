@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
+  m_Name: Brown_Buzzcut_Hair
+  m_EditorClassIdentifier: 
+  bodyPartName: Brown_Buzzcut_Hair
+  bodyPartAnimationID: 1
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: b7c589adc0721a940b2df8e831d2461c, type: 2}
+  - {fileID: 7400000, guid: b7c589adc0721a940b2df8e831d2461c, type: 2}
+  - {fileID: 7400000, guid: 3011337a4d7ff7a4783c5ea266265a90, type: 2}
+  - {fileID: 7400000, guid: b709390688b033b4d835ad4b354a77ee, type: 2}
+  - {fileID: 7400000, guid: 4a93b59279c0a4348b893f30bd95f57f, type: 2}
+  - {fileID: 7400000, guid: 171b0c71634670349ae2e25b7dc17bf8, type: 2}
+  - {fileID: 7400000, guid: 7b9ffdac7b00e974bbfc8dd55651fe65, type: 2}
+  - {fileID: 7400000, guid: 090c1632c0985c042ac32d24e9a4adc2, type: 2}

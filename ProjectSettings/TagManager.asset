@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Raft
+  - Paddle
+  - Fishing
+  - CollectRain
+  - Collect Rain
+  - RepairRaft
+  - NPC
+  - Task Indicator
+  - PaddleFin
   layers:
   - Default
   - TransparentFX
@@ -13,9 +22,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Obstructors
+  - Reflections
+  - WaterPostProcessing
   - 
   - 
   - 
@@ -40,4 +49,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Chat bubble
+    uniqueID: 1382138667
     locked: 0

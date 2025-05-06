@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: dd73abdc1eb0cba4fbef785afdbb51bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3041905490643702008
+    second: floss-move-no-sail-transp_0
+  - first:
+      213: -6056445506453655396
+    second: floss-move-no-sail-transp_1
+  - first:
+      213: 8225144116570099895
+    second: floss-move-no-sail-transp_2
+  - first:
+      213: -1317181505801558742
+    second: floss-move-no-sail-transp_3
+  - first:
+      213: -9171355351416473896
+    second: floss-move-no-sail-transp_4
+  - first:
+      213: -6672536466995302680
+    second: floss-move-no-sail-transp_5
+  - first:
+      213: 6382003905049209017
+    second: floss-move-no-sail-transp_6
+  - first:
+      213: -8193169858003442594
+    second: floss-move-no-sail-transp_7
+  - first:
+      213: -337628244452155512
+    second: floss-move-no-sail-transp_8
+  - first:
+      213: 4340168185941876386
+    second: floss-move-no-sail-transp_9
+  - first:
+      213: 2605580508437410969
+    second: floss-move-no-sail-transp_10
+  - first:
+      213: -1148472550505140489
+    second: floss-move-no-sail-transp_11
+  - first:
+      213: 2619429319163714365
+    second: floss-move-no-sail-transp_12
+  - first:
+      213: -4675412264386280415
+    second: floss-move-no-sail-transp_13
+  - first:
+      213: 1070115860970849463
+    second: floss-move-no-sail-transp_14
+  - first:
+      213: 7189347421357811069
+    second: floss-move-no-sail-transp_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f2fdda21bf8c5d0800000000000000
+      internalID: -3041905490643702008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 672
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90b15a76ee23fba0800000000000000
+      internalID: -6056445506453655396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 672
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b01e8ecef4952270800000000000000
+      internalID: 8225144116570099895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 672
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25ebf1366e68bde0800000000000000
+      internalID: -1317181505801558742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d671f956ecc8b080800000000000000
+      internalID: -9171355351416473896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 448
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eea7e59f636663a0800000000000000
+      internalID: -6672536466995302680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 448
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b82d930dbe619850800000000000000
+      internalID: 6382003905049209017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_7
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 448
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5464456c630c4e80800000000000000
+      internalID: -8193169858003442594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f5a4786e0805bf0800000000000000
+      internalID: -337628244452155512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 224
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae548c48ff5b3c30800000000000000
+      internalID: 4340168185941876386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 224
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994f71fdaa1e82420800000000000000
+      internalID: 2605580508437410969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 224
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7feaad8dc4ecf00f0800000000000000
+      internalID: -1148472550505140489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b1ff266151a5420800000000000000
+      internalID: 2619429319163714365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12440c221599d1fb0800000000000000
+      internalID: -4675412264386280415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_14
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4cda1b4b0d9de00800000000000000
+      internalID: 1070115860970849463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floss-move-no-sail-transp_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 163
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7527e09361b5c360800000000000000
+      internalID: 7189347421357811069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ba879ac50b1b40146a3ca00e11e3e572
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      floss-move-no-sail-transp_0: -3041905490643702008
+      floss-move-no-sail-transp_1: -6056445506453655396
+      floss-move-no-sail-transp_10: 2605580508437410969
+      floss-move-no-sail-transp_11: -1148472550505140489
+      floss-move-no-sail-transp_12: 2619429319163714365
+      floss-move-no-sail-transp_13: -4675412264386280415
+      floss-move-no-sail-transp_14: 1070115860970849463
+      floss-move-no-sail-transp_15: 7189347421357811069
+      floss-move-no-sail-transp_2: 8225144116570099895
+      floss-move-no-sail-transp_3: -1317181505801558742
+      floss-move-no-sail-transp_4: -9171355351416473896
+      floss-move-no-sail-transp_5: -6672536466995302680
+      floss-move-no-sail-transp_6: 6382003905049209017
+      floss-move-no-sail-transp_7: -8193169858003442594
+      floss-move-no-sail-transp_8: -337628244452155512
+      floss-move-no-sail-transp_9: 4340168185941876386
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

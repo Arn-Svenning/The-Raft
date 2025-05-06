@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1070ef9a83c5e24c843335f742e6a2b, type: 3}
+  m_Name: Robert_Character
+  m_EditorClassIdentifier: 
+  characterBodyParts:
+  - bodyPartName: Body
+    bodyPart: {fileID: 11400000, guid: a84fe36ea871fc347aec863dfd26173c, type: 2}
+  - bodyPartName: Hair
+    bodyPart: {fileID: 11400000, guid: 65572d3e7cd119842a2f4d087f3c822a, type: 2}
+  - bodyPartName: Beard
+    bodyPart: {fileID: 11400000, guid: 82acb5a4a948e354b866d228b35348d4, type: 2}
+  - bodyPartName: Upper
+    bodyPart: {fileID: 11400000, guid: 85eb62ce33d6db649a2aaa0d7d740f92, type: 2}
+  - bodyPartName: Lower
+    bodyPart: {fileID: 11400000, guid: d90255f0efdd9da4c94f0ea4c6fb2a4a, type: 2}

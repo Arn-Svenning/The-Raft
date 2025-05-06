@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
+  m_Name: No_Hair
+  m_EditorClassIdentifier: 
+  bodyPartName: No_Hair
+  bodyPartAnimationID: 2
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 656dbf7cd97d38240b32111bb138c5cd, type: 2}
+  - {fileID: 7400000, guid: dcb4e5031b14ac24bb6f4c270af7c15b, type: 2}
+  - {fileID: 7400000, guid: 7f890c838ebbdd94d914f34c2adf145b, type: 2}
+  - {fileID: 7400000, guid: e3d8e4f7fbaa300459b69bcc7a52bf93, type: 2}
+  - {fileID: 7400000, guid: a00e4de0035de324ea56a7bd92c302d3, type: 2}
+  - {fileID: 7400000, guid: 75280e2fefe4ee548a9e25084491156d, type: 2}
+  - {fileID: 7400000, guid: 56f90e7558dfa8c4cb140d54fa6b79d7, type: 2}
+  - {fileID: 7400000, guid: 37991fce69d89fe47af3d6cd5627115d, type: 2}
