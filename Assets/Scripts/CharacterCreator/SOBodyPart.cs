@@ -13,4 +13,7 @@ public class SOBodyPart : ScriptableObject
 
     // List Containing All Body Part Animations
     public List<AnimationClip> allBodyPartAnimations = new List<AnimationClip>();
+
+    
+
 }

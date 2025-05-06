@@ -8,6 +8,7 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private Image raftBackground;
     [SerializeField] private Canvas tutorialCanvas; 
     [SerializeField] private string sceneString;
+    [SerializeField] private Canvas characterCreatorCanvas;
 
     [SerializeField] private bool isLLMVersion = false;
 
@@ -38,6 +39,8 @@ public class MainMenuController : MonoBehaviour
     }
     public void ChoosePlayerName()
     {
+        raftBackground.gameObject.SetActive(true);
+        characterCreatorCanvas.gameObject.SetActive(false);
         normalMenu.SetActive(false);
         choosePlayerNameMenu.SetActive(true);
     }
@@ -58,6 +61,11 @@ public class MainMenuController : MonoBehaviour
     public void ShowTutorial()
     {
         tutorialCanvas.gameObject.SetActive(true);
+    }
+    public void OpenCharacterCreator()
+    {
+        raftBackground.gameObject.SetActive(false);
+        characterCreatorCanvas.gameObject.SetActive(true);
     }
     public void ExitGame()
     {

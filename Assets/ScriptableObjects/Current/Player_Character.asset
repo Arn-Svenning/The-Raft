@@ -16,10 +16,10 @@ MonoBehaviour:
   - bodyPartName: Body
     bodyPart: {fileID: 11400000, guid: a84fe36ea871fc347aec863dfd26173c, type: 2}
   - bodyPartName: Hair
-    bodyPart: {fileID: 11400000, guid: 65572d3e7cd119842a2f4d087f3c822a, type: 2}
+    bodyPart: {fileID: 11400000, guid: 8b5f756a5d0086e4c8ba98faafd5c64f, type: 2}
   - bodyPartName: Beard
     bodyPart: {fileID: 11400000, guid: 82acb5a4a948e354b866d228b35348d4, type: 2}
   - bodyPartName: Upper
-    bodyPart: {fileID: 11400000, guid: 85eb62ce33d6db649a2aaa0d7d740f92, type: 2}
+    bodyPart: {fileID: 11400000, guid: f338b74b1ab7ba94583ab6918954db99, type: 2}
   - bodyPartName: Lower
-    bodyPart: {fileID: 11400000, guid: d90255f0efdd9da4c94f0ea4c6fb2a4a, type: 2}
+    bodyPart: {fileID: 11400000, guid: 2bc1e9ac45165e641877ca7771c92178, type: 2}

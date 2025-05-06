@@ -15,11 +15,11 @@ MonoBehaviour:
   bodyPartName: Pink_Bow_Hair
   bodyPartAnimationID: 3
   allBodyPartAnimations:
-  - {fileID: 7400000, guid: a46189a3829b7bd47a4ddd0705c575c0, type: 2}
-  - {fileID: 7400000, guid: 8389ceb1a20b949499c0fe63ea1be848, type: 2}
-  - {fileID: 7400000, guid: fcf7bdd9a49f50f4790af2f6a980a3ea, type: 2}
-  - {fileID: 7400000, guid: cffd894c17dfa154491b2038e516d720, type: 2}
-  - {fileID: 7400000, guid: d95663d3dac1f704dbc04476d3816503, type: 2}
-  - {fileID: 7400000, guid: 7d40ae90acb4d8c459a3075adfdd9170, type: 2}
-  - {fileID: 7400000, guid: d6e946c41d2cbad449e2c3449402de04, type: 2}
-  - {fileID: 7400000, guid: 4404d00ef8cd71c49964bf7b2070a952, type: 2}
+  - {fileID: 7400000, guid: 3a6a45e9f977b734f8e4b68b564ece35, type: 2}
+  - {fileID: 7400000, guid: 53fa7266f0cddc64a958ad61cfa9eff1, type: 2}
+  - {fileID: 7400000, guid: e2408885e3640014485de108e8f58c81, type: 2}
+  - {fileID: 7400000, guid: bd05e621264dd434d8dc27fbebdcaf6d, type: 2}
+  - {fileID: 7400000, guid: 72f8701a7e57e5d4e8936530136dfb60, type: 2}
+  - {fileID: 7400000, guid: 50b6ef27c09cbcf499231aafdf3f8133, type: 2}
+  - {fileID: 7400000, guid: f1ea585f08f624e428820d90f65ecfad, type: 2}
+  - {fileID: 7400000, guid: cbb69de8827d59148a71cf2857027e01, type: 2}
