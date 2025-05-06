@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Canvas playerWinLooseCanvas;
     [SerializeField] private TextMeshProUGUI winLooseText;
+    [SerializeField] private bool isLLMVersion = false;
 
     public event Action<GameState> OnGameStateChanged;
     public event Action<bool> OnPlayerWon;
@@ -31,6 +32,8 @@ public class GameManager : MonoBehaviour
     private GameState currentGameState = GameState.Paused;
 
     private float gameTimer = 0;
+
+    public bool GetIsLLMVersion { get { return isLLMVersion; } }
     private void Awake()
     {
         Time.timeScale = 1f;

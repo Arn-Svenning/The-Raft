@@ -96,7 +96,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7756983711168736376}
   m_Layer: 0
-  m_Name: NPC_Dead
+  m_Name: NPC Abby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -214,6 +214,7 @@ MonoBehaviour:
   visualCue: {fileID: 241809207406712853}
   inkJson: {fileID: 4900000, guid: 184e0be5d75343e44bbb17dca06f90de, type: 3}
   playerInRange: 0
+  manager: {fileID: 0}
 --- !u!1 &6821524636069209545
 GameObject:
   m_ObjectHideFlags: 0

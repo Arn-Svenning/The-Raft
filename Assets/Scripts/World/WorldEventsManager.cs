@@ -17,8 +17,6 @@ public class WorldEventsManager : MonoBehaviour
 
     private List<NPCInteraction> NPCInteractionInstances = new List<NPCInteraction>();
 
-    [SerializeField] private bool isLLMVersion = true;
-
     private void Awake()
     {
         if(Instance == null)
@@ -56,7 +54,7 @@ public class WorldEventsManager : MonoBehaviour
     /// <param name="obj"></param>
     private void ResourceManager_OnRaftCantMove(bool obj)
     {
-        if(isLLMVersion)
+        if(GameManager.Instance.GetIsLLMVersion)
         {
             string worldEventContext = "The raft was damaged too badly and can not be paddled until the damage is fixed. React to this event";
             worldEventContext += "React to this event with a short, in-character remark, **but do NOT change your current state under any circumstances** unless " +
@@ -74,7 +72,7 @@ public class WorldEventsManager : MonoBehaviour
 
     private void ResourceManager_OnRaftRepaired(bool obj)
     {
-        if(isLLMVersion)
+        if(GameManager.Instance.GetIsLLMVersion)
         {
             string worldEventContext = "The raft was successfully repaired. React to this event";
             worldEventContext += "React to this event with a short, in-character remark, **but do NOT change your current state under any circumstances** unless " +
@@ -101,7 +99,7 @@ public class WorldEventsManager : MonoBehaviour
     #region Fish
     private void FishSpawner_OnFishSpawned(int numberOfActiveFishes, Transform transformOfSpawnedFish)
     {
-        if(isLLMVersion)
+        if(GameManager.Instance.GetIsLLMVersion)
         {
          
             string worldEventContext = "A fish has just appeared near the raft. React to this event";
@@ -119,7 +117,7 @@ public class WorldEventsManager : MonoBehaviour
 
     private void RainSpawner_OnRainSpawned(bool obj)
     {
-        if (isLLMVersion)
+        if (GameManager.Instance.GetIsLLMVersion)
         {
             string worldEventContext = "It just started to rain. React to this event";
             worldEventContext += "React to this event with a short, in-character remark, **but do NOT change your current state under any circumstances** unless " +
@@ -137,7 +135,7 @@ public class WorldEventsManager : MonoBehaviour
 
     private void RaftDamageSpawner_OnRaftDamaged(bool obj)
     {
-        if (isLLMVersion)
+        if (GameManager.Instance.GetIsLLMVersion)
         {
             string worldEventContext = "The raft is damaged. React to this event";
             worldEventContext += "React to this event with a short, in-character remark, **but do NOT change your current state under any circumstances** unless " +
