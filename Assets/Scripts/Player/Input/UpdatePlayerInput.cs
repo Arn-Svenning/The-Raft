@@ -1,4 +1,4 @@
-using Chat;
+﻿using Chat;
 using Player;
 using UnityEngine;
 
@@ -14,11 +14,14 @@ namespace Input
 
         private bool useChat = false;
 
+        public bool dialogueInput { get; private set; } = false;
+
         public void UpdateInput(PlayerChatBoxInteract playeChatBox, Rewired.Player playerInput)
         {
             MovementInput(playeChatBox, playerInput);
             UseChatInput(playeChatBox, playerInput);
             PerformTaskInput(playeChatBox, playerInput);
+            DialogueInput(playeChatBox, playerInput);
         }
 
         /// <summary>
@@ -68,6 +71,15 @@ namespace Input
             }
 
             performTask = PlayerInput.Instance.GetPerformTaskInput(playerInput);
+        }
+        private void DialogueInput(PlayerChatBoxInteract playeChatBox, Rewired.Player playerInput)
+        {
+            if (playeChatBox != null && playeChatBox.BIsUsingChat())
+            {
+                dialogueInput = false;
+                return;
+            }
+            dialogueInput = PlayerInput.Instance.GetDialogueInput(playerInput);
         }
     }
 }

@@ -77,6 +77,14 @@ namespace Input
 
             return isPressed;
         }
+        public bool GetDialogueInput(Rewired.Player player)
+        {
+            bool isPressed = false;
+
+            isPressed = player.GetButtonDown("Dialogue");
+
+            return isPressed;
+        }
     }
 }
 

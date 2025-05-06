@@ -117,7 +117,7 @@ namespace Player
         private void NPCInteract()
         {
 
-            if (updatePlayerInput.performTask && DialogueTrigger.currentActiveTrigger != null)
+            if (updatePlayerInput.dialogueInput && DialogueTrigger.currentActiveTrigger != null)
             {
 
                 DialogueManager dm = DialogueTrigger.currentActiveTrigger.manager;
