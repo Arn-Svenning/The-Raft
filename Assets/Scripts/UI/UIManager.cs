@@ -18,7 +18,6 @@ namespace PlayerUI
         [Header("Pause Menu")]
         [SerializeField] private Canvas pauseMenuCanvas;
         [SerializeField] private Canvas TutorialCanvas;
-        [SerializeField] private bool isLLMVersion = false;
 
         [Header("Resources")]
         [SerializeField] private Image[] hungerResource;
@@ -165,7 +164,7 @@ namespace PlayerUI
         public void ExitToMainMenu()
         {
             Time.timeScale = 1f;
-            if(isLLMVersion)
+            if(GameManager.Instance.GetIsLLMVersion)
             {
                 SceneManager.LoadScene("LLM_Main_Menu");
             }

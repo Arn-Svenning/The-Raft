@@ -34,7 +34,14 @@ namespace NPC
         protected void Start()
         {
             NPCRigidBody = GetComponent<Rigidbody2D>();
-            NPCInteraction = GetComponent<NPCInteraction>();
+            if(GameManager.Instance.GetIsLLMVersion)
+            {
+                NPCInteraction = GetComponent<NPCInteraction>();
+
+                if (NPCInteraction == null)
+                    Debug.LogError("NPCBase: Missing NPCInteraction!", this);
+            }
+           
             performTaskAction = GetComponentInChildren<PerformTaskAction>();
             characterAnimationController = GetComponentInChildren<CharacterAnimationController>();
 
@@ -46,8 +53,7 @@ namespace NPC
 
             if (NPCRigidBody == null)
                 Debug.LogError("NPCBase: Missing Rigidbody2D!", this);
-            if (NPCInteraction == null)
-                Debug.LogError("NPCBase: Missing NPCInteraction!", this);
+           
             if (performTaskAction == null)
                 Debug.LogError("NPCBase: Missing PerformTaskAction child!", this);
 
