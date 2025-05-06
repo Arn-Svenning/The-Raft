@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
+  m_Name: Pink_Bow_Hair
+  m_EditorClassIdentifier: 
+  bodyPartName: Pink_Bow_Hair
+  bodyPartAnimationID: 3
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: a46189a3829b7bd47a4ddd0705c575c0, type: 2}
+  - {fileID: 7400000, guid: 8389ceb1a20b949499c0fe63ea1be848, type: 2}
+  - {fileID: 7400000, guid: fcf7bdd9a49f50f4790af2f6a980a3ea, type: 2}
+  - {fileID: 7400000, guid: cffd894c17dfa154491b2038e516d720, type: 2}
+  - {fileID: 7400000, guid: d95663d3dac1f704dbc04476d3816503, type: 2}
+  - {fileID: 7400000, guid: 7d40ae90acb4d8c459a3075adfdd9170, type: 2}
+  - {fileID: 7400000, guid: d6e946c41d2cbad449e2c3449402de04, type: 2}
+  - {fileID: 7400000, guid: 4404d00ef8cd71c49964bf7b2070a952, type: 2}

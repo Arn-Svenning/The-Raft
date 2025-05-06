@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a1070ef9a83c5e24c843335f742e6a2b, type: 3}
-  m_Name: Robert_Character
+  m_Name: Player_Character
   m_EditorClassIdentifier: 
   characterBodyParts:
   - bodyPartName: Body
