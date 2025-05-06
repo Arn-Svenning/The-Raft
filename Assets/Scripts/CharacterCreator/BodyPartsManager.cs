@@ -64,6 +64,14 @@ public class BodyPartsManager : MonoBehaviour
         animatorOverrideController.ApplyOverrides(defaultAnimationClips);
     }
 
+    public bool HasValidAnimations(AnimationClip clip)
+    {
+        if (clip != null && clip.length > 0)
+            return true;
+
+        return false;
+    }
+
     public class AnimationClipOverrides : List<KeyValuePair<AnimationClip, AnimationClip>>
     {
         public AnimationClipOverrides(int capacity) : base(capacity) { }

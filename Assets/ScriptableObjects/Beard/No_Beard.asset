@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
   m_Name: No_Beard
   m_EditorClassIdentifier: 
-  bodyPartName: Blue_Overall_Upper
+  bodyPartName: No Beard
   bodyPartAnimationID: 1
   allBodyPartAnimations:
   - {fileID: 7400000, guid: f12619c2b5147cf4590ea6d5a7ff897b, type: 2}
