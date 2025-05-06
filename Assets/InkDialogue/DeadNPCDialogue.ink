@@ -21,7 +21,7 @@ VAR refuse_count = 0
         - "Oh, hello there! I was just contemplating the philosophical nature of our predicament."
         - "Captain! Beautiful day for drifting aimlessly, wouldn't you say?"
         - "There you are! I was just about to do something... important. Eventually."
-        - "Ah, our fearless leader returns! *gestures to sit* The sea teaches patience, doesn't it?"
+        - "Ah, our fearless leader returns! The sea teaches patience, doesn't it?"
         - "Captain! Been watching the clouds. That one looks like our old ship. Funny how life works."
 }
 + [I'm starving.]          -> chatHunger
@@ -58,7 +58,7 @@ VAR refuse_count = 0
 {shuffle:
     - "Once spent three weeks on a becalmed vessel. The cook made 'mystery stew' from boot leather and hope. *chuckles* Tasted better than it sounds."
     - "Did I ever tell you about the time I caught a fish so large it pulled me overboard? *yawns* Swam alongside it for hours before we became friends."
-    - "In my youth, we'd preserve fish with salt and sunshine. *gestures vaguely* The trick was singing to them while they dried. Improved the flavor."
+    - "In my youth, we'd preserve fish with salt and sunshine. The trick was singing to them while they dried. Improved the flavor."
 }
 -> beforeTask  
 
@@ -242,8 +242,8 @@ VAR refuse_count = 0
 {shuffle:
     - "Fishing it is. The sea and I have an understanding. The fish come when they're ready to join our journey."
     - "Ah, the noble pursuit of sustenance. My old hands remember the rhythm, even if they protest the work."
-    - "Fishing... *nods approvingly* A meditative activity. One must become empty to attract fullness, as my first captain used to say."
-    - "To the fishing lines then. *smiles* I've been watching a particular spot where the water speaks of hidden treasures beneath."
+    - "Fishing... A meditative activity. One must become empty to attract fullness, as my first captain used to say."
+    - "To the fishing lines then. I've been watching a particular spot where the water speaks of hidden treasures beneath."
 }
 -> END  
 
@@ -323,7 +323,7 @@ VAR refuse_count = 0
     - " My energy reserves require careful management, Captain. Perhaps our sharp-tongued friend could assist?"
 }
 
-+ [That's fine, Robert.] -> refuseAccept
++ [That's fine!] -> refuseAccept
 + [Why not?] -> refuseQuestion
 
 === refuseAccept ===
@@ -363,7 +363,7 @@ VAR refuse_count = 0
           - " In my lengthy experience, some leaks seal themselves if given proper time and respect. Like old wounds."
       }
 }
-+ [I understand, Robert.]      -> refuseResolve
++ [I understand.]      -> refuseResolve
 + [We really need this done.]  -> refuseInsist
 
 === refuseInsist ===
