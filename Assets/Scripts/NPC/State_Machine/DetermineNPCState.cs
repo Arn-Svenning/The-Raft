@@ -27,7 +27,7 @@ namespace NPC
         /// <param name="npcDataLoader"></param>
         /// <param name="npcBase"></param>
         /// <param name="npcStateMachine"></param>
-        public DetermineNPCState(LLMCharacter llmCharacter, NPCDataLoader npcDataLoader, NPCBase npcBase, NPCStateMachine npcStateMachine)
+        public DetermineNPCState(LLMCharacter llmCharacter, NPCBase npcBase, NPCStateMachine npcStateMachine)
         {
             this.npcBase = npcBase;
             this.npcStateMachine = npcStateMachine;

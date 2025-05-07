@@ -46,13 +46,23 @@ public class MainMenuController : MonoBehaviour
     }
     public void GoBackToNormalMenu()
     {
-        choosePlayerNameMenu.SetActive(false);
+        raftBackground.gameObject.SetActive(true);
+        characterCreatorCanvas.gameObject.SetActive(false);
+        if(choosePlayerNameMenu.gameObject != null)
+        {
+            choosePlayerNameMenu.SetActive(false);
+        }
+        
         normalMenu.SetActive(true); 
     }
     
     public void StartGame()
     {
-        SetPlayerName.Instance.SetName(playerName.text);
+        if(isLLMVersion)
+        {
+            SetPlayerName.Instance.SetName(playerName.text);
+        }
+        
 
 
         SceneManager.LoadScene(sceneString);

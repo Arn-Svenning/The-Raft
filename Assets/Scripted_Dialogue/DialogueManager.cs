@@ -6,12 +6,11 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using Ink.UnityIntegration;
 
 public class DialogueManager : MonoBehaviour
 {
     [Header("Globals Ink File")]
-    [SerializeField] private InkFile globalsInkFile;
+    [SerializeField] private TextAsset globalsInkJson;
 
     [Header("Dialogue UI")]
 
@@ -35,7 +34,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
-        dialogueVariables = new DialogueVariables(globalsInkFile.filePath);
+        dialogueVariables = new DialogueVariables(globalsInkJson.text);
     }
 
     private void Start()
@@ -52,7 +51,9 @@ public class DialogueManager : MonoBehaviour
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
         }
+
     }
+
     private void Update()
     {
         if(!dialogueIsPlaying)
@@ -73,7 +74,7 @@ public class DialogueManager : MonoBehaviour
 
         ContinueStory();
 
-
+        
     }
     private void ExitDialogueMode()
     {
@@ -126,7 +127,7 @@ public class DialogueManager : MonoBehaviour
         {
             choices[i].gameObject.SetActive(false);
         }
-
+        
         StartCoroutine(SelectFirstChoice());
     }
     private IEnumerator SelectFirstChoice()
@@ -138,10 +139,14 @@ public class DialogueManager : MonoBehaviour
     }
     public void MakeChoice(int choiceIndex)
     {
-       currentStory.ChooseChoiceIndex(choiceIndex);
-       ContinueStory();
+        currentStory.ChooseChoiceIndex(choiceIndex);
 
+        ContinueStory();
+
+        string choice = choices[choiceIndex].GetComponentInChildren<TextMeshProUGUI>().text;
+        SessionLogger.Instance.Log(choice, currentStory.currentText, "");
     }
+    
     public Ink.Runtime.Object GetVariableState(string variableName)
     {
         Ink.Runtime.Object variableValue = null;

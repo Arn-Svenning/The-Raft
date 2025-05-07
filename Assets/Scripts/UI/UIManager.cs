@@ -170,7 +170,7 @@ namespace PlayerUI
             }
             else
             {
-                SceneManager.LoadScene("Scri_Main_Menu");
+                SceneManager.LoadScene("Scripted_Main_Menu");
             }
         }
         public void OpenTutorialWindow()

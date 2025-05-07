@@ -131,6 +131,7 @@ namespace Player
                 if (!dm.dialogueIsPlaying)
                 {
                     dm.EnterDialogueMode(DialogueTrigger.currentActiveTrigger.inkJson);
+                    
                     Debug.Log("DialogueModeEntered");
                 }
                 else

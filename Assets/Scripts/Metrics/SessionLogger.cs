@@ -35,7 +35,7 @@ public class SessionLogger : MonoBehaviour
         }
 
         logFilePath = Path.Combine(folderPath, fileName);
-        Log("Session started.");
+        Log("Session started.", ".", ".");
 
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
         // Open the folder containing the log file in File Explorer
@@ -44,11 +44,11 @@ public class SessionLogger : MonoBehaviour
     }
 
 
-    public void Log(string message)
+    public void Log(string message, string NPCResponse, string NPCName)
     {
         numberOfIneractions++;
-        string logEntry = $"{DateTime.Now:HH:mm:ss} - {message}, [number Of Interactions: {numberOfIneractions}]";
-        File.AppendAllText(logFilePath, logEntry + Environment.NewLine);
-        Debug.Log(logEntry);
+        string logEntryPlayer = $"{DateTime.Now:HH:mm:ss} - {message}, [number Of Interactions: {numberOfIneractions}]";
+        string logEntryNPC = $"{DateTime.Now:HH:mm:ss}, [NPC RESPONSE FROM {NPCName}] - {NPCResponse}";
+        File.AppendAllText(logFilePath, logEntryPlayer + Environment.NewLine + logEntryNPC + Environment.NewLine);
     }
 }

@@ -35,7 +35,7 @@ namespace NPC
         /// <param name="completionCallback"></param>
         /// <param name="addToHistory"></param>
         /// <returns></returns>
-        public async Task<string> ChatWithRAG(NPCDataLoader npcData, DetermineNPCState state, string query, Callback<string> callback = null, EmptyCallback completionCallback = null, bool addToHistory = true)
+        public async Task<string> ChatWithRAG(DetermineNPCState state, string query, Callback<string> callback = null, EmptyCallback completionCallback = null, bool addToHistory = true)
         {
 
             string result = await Chat(query, callback, completionCallback, addToHistory);

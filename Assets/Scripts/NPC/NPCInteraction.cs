@@ -16,7 +16,6 @@ namespace NPC
     /// </summary>
     public class NPCInteraction : MonoBehaviour
     {
-        [SerializeField] private NPCDataLoader npcDataLoader;
         [SerializeField] private TextMeshProUGUI AIText; // A UI element for displaying NPC responses
         [SerializeField] private GameObject AIChatBubble;
         [SerializeField] private GameObject characterImage;
@@ -42,7 +41,7 @@ namespace NPC
 
             detectPlayer = GetComponent<DetectPlayer>();
             npcBase = GetComponent<NPCBase>();
-            determineNPCState = new DetermineNPCState(llmCharacter, npcDataLoader, npcBase, npcBase.npcStateMachine);
+            determineNPCState = new DetermineNPCState(llmCharacter, npcBase, npcBase.npcStateMachine);
             DecreaseNPCAndChatBubbleVisibility();
             WarmupModel();
 
@@ -69,7 +68,7 @@ namespace NPC
             _ = llmCharacter.Warmup(WarmupCompleted);
         }
 
-        void onInputFieldSubmit(string message)
+        async void onInputFieldSubmit(string message)
         {
             if (!detectPlayer.isPlayerInRange || !isCharacterInitialized) return;
 
@@ -87,10 +86,10 @@ namespace NPC
             IncreaseNPCAndChatBubbleVisibility(false);
             AIText.text = "...";
 
-            _ = llmCharacter.ChatWithRAG(npcDataLoader, determineNPCState ,message, SetAIText, AIReplyComplete, true);
+            var npcResponse = await llmCharacter.ChatWithRAG(determineNPCState, message, SetAIText, AIReplyComplete, true);
 
-            SessionLogger.Instance.Log(message);
 
+            SessionLogger.Instance.Log(message, npcResponse, llmCharacter.AIName);
         }
 
         public void RespondToWorldEvent(string context)
@@ -103,7 +102,7 @@ namespace NPC
 
             AIText.text = "...";
 
-            _ = llmCharacter.ChatWithRAG(npcDataLoader, determineNPCState, message, SetAIText, AIReplyComplete, true);
+            _ = llmCharacter.ChatWithRAG(determineNPCState, message, SetAIText, AIReplyComplete, true);
         }
 
         public void SetAIText(string text)
