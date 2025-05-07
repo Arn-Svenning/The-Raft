@@ -5,22 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scripted/Scripted_Bootup_Scene.unity
     guid: 959cce72ea4078e47963f8e857b9d560
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scripted/Scripted_Main_Menu.unity
     guid: 80b963d4515a47a40890fc67ca40fa1b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scripted/Scripted_Game_Scene.unity
     guid: b0bc07888f463e1469f41021da757b47
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LLM/LLM_Bootup_Scene.unity
     guid: efad2344871762e439a86a9fa535518d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LLM/LLM_Main_Menu.unity
     guid: 8ae3e1aa670cc244dbafa43188af82a5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LLM/LLM_Game_Scene.unity
     guid: 1375f62f66ea44d468430102cd361399
   m_configObjects: {}
