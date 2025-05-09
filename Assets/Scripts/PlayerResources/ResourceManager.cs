@@ -37,7 +37,7 @@ namespace PlayerResources
 
         private const float HUNGER_DECREASE_AMOUNT = 0.004f;
         private const float THIRST_DECREASE_AMOUNT = 0.0065f;
-        private const float MORAL_DECREASE_AMOUNT = 0.013f;
+        private const float MORAL_DECREASE_AMOUNT = 0.013cof;
         private const float RAFT_HEALTH_DECREASE_AMOUNT = 0.04f;
 
         private const float RESOURCE_MEDIUM_THRESHOLD = 0.5f;
