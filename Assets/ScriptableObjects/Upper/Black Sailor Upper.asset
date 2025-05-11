@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
-  m_Name: Black_Sailor_Upper
+  m_Name: Black Sailor Upper
   m_EditorClassIdentifier: 
-  bodyPartName: Black_Sailor_Upper
+  bodyPartName: Black Sailor Upper
   bodyPartAnimationID: 2
   allBodyPartAnimations:
   - {fileID: 7400000, guid: 7dbafddad889a6149a61b24feb3c93ea, type: 2}

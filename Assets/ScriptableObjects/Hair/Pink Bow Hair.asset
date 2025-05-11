@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
-  m_Name: Pink_Bow_Hair
+  m_Name: Pink Bow Hair
   m_EditorClassIdentifier: 
-  bodyPartName: Pink_Bow_Hair
+  bodyPartName: Pink Bow Hair
   bodyPartAnimationID: 3
   allBodyPartAnimations:
   - {fileID: 7400000, guid: 3a6a45e9f977b734f8e4b68b564ece35, type: 2}

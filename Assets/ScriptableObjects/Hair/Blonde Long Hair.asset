@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
-  m_Name: Blonde_Long_Hair
+  m_Name: Blonde Long Hair
   m_EditorClassIdentifier: 
-  bodyPartName: Blonde_Long_Hair
+  bodyPartName: Blonde Long Hair
   bodyPartAnimationID: 0
   allBodyPartAnimations:
   - {fileID: 7400000, guid: a46189a3829b7bd47a4ddd0705c575c0, type: 2}

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: db5a66303963ea541aa33f2cf9778c39, type: 3}
-  m_Name: Blue_Lower
+  m_Name: Blue Lower
   m_EditorClassIdentifier: 
-  bodyPartName: Blue_Lower
+  bodyPartName: Blue Lower
   bodyPartAnimationID: 0
   allBodyPartAnimations:
   - {fileID: 7400000, guid: 8ac477162e8d634458ebe97b239b4459, type: 2}
